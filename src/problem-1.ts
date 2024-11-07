@@ -4,8 +4,8 @@
         function sumArray (arr: number[]): number { 
             let sum = 0;
             for (let i = 0; i < arr.length; i++) {
-            let add = arr[i];
-            sum += add;
+                let add = arr[i];
+                sum += add;
             } 
             return sum;
         }
