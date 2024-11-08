@@ -25,18 +25,18 @@ function calculateShapeArea(figure:Shape): number {
   else {
     return figure.width * figure.height;
   }
-}
+};
 
 
 
-// const circleArea = calculateShapeArea({ shape: "circle", radius: 5 });
+// const circleArea = calculateShapeArea({ shape: "circle", radius: 9 });
 // console.log(circleArea);
 
 
 // const rectangleArea = calculateShapeArea({
 //   shape: "rectangle",
-//   width: 4,
-//   height: 6,
+//   width: 6,
+//   height: 7,
 // });
 
 // console.log(rectangleArea);

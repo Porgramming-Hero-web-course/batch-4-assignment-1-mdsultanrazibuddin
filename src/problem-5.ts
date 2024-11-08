@@ -4,13 +4,16 @@
     
 
 function getProperty <T, K extends keyof T> (object:T, key:K) : T[K]{
-    return object[key]
+    const property = object[key]; 
+    return property;
 }
 
 
 // const person = { name: "Alice", age: 30 };   
-// const getOutput = getProperty(person, "name")
-// console.log(getOutput);
+// const getOutput1 = getProperty(person, "name")
+// const getOutput2 = getProperty(person, "age")
+// console.log(getOutput1);
+// console.log(getOutput2);
         
 
 
